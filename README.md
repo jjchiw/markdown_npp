@@ -2,8 +2,7 @@
 
 ## Overview
 
-This project provides a very simple user defined language file for Notepad++ that does some basic syntax highlighting for markdown texts.
-
+This project provides a very simple user defined language file for Notepad++ that does some basic syntax highlighting for markdown texts. This is my version of the markdown theme for notepad++, if you want the original one, go [here](https://github.com/jjchiw/markdown_npp).
 
 ## Usage
 
