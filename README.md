@@ -9,20 +9,19 @@ This project provides a very simple user defined language file for Notepad++ tha
 Installation instructions (taken from Notepad++ Web site [1]):
 
 1. Download the user-defined language to your computer
-2. Open the file with your favourite text editor (such as notepad++ or
-   notepad)
-3. Click start, run, type (or paste in) %APPDATA%\Notepad++ then click ok
-4. Open userDefineLang.xml with a text editor
-5. If this is the first userdefined language you are adding, copy/paste the
-   entire first file (which you downloaded) into the userDefineLang.xml, 
-   replacing all that was there. If this is the second or more language you 
-   add, simply copy everything from the first file starting at <UserLang...> 
-   to </UserLang> and paste it at the end of the userDefineLang.xml right 
-   before </NotepadPlus>
-6. Save the newly improved userDefineLang.xml
+   - Right-click on [userDefineLang.xml (RAW file format)][raw] and choose 'Save As'
+2. In Notepad++ : 
+   1. Choose menu `Language` > `Define your own language`
+   2. Click `Import` 
+   3. In the open dialog, browse to and select your downloaded *userDefineLang.xml* file, and click `open`.
+   4. Wait for the 'Import successful' dialog to be shown.
+5. Open a Markdown file in Notepad++ (file extension must be *.md* or *.markdown*)
+   - Notepad++ _should_ format the file with Markdown language style
+   - To manually choose Markdown style, select menu `Language` > `Markdown`
 
 
-[1]: http://notepad-plus.sourceforge.net/uk/site.htm
+[1]: https://notepad-plus-plus.org/
+[raw]: https://github.com/jjchiw/markdown_npp/raw/master/userDefineLang.xml
 
 
 ## Copyright and License
